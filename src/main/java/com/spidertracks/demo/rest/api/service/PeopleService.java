@@ -17,7 +17,6 @@ public class PeopleService implements IPeopleService {
 	private AtomicInteger idGen = new AtomicInteger();
 
 	public PeopleService(){
-		// create some dummy data
 		addPerson(new Person("John Doe", "Spidertracks"));
 		addPerson(new Person("Jane Doe", "Spidertracks"));
 		addPerson(new Person("Joshua Teller", "FAA"));
